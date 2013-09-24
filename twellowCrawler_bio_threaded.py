@@ -108,7 +108,7 @@ if __name__ == '__main__':
     
     # First, input jobs into the job_list
     logging.debug('Preparing the job list...')
-    for line in open('category-url-mini.txt'):
+    for line in open('category-url.txt'):
         category, url = line.split(';;;;')
         job_list.append([category.strip(), url.strip()])
     logging.info("Job list prepared...")

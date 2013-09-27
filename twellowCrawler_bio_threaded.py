@@ -126,6 +126,6 @@ if __name__ == '__main__':
     # extractBios()
 
     logging.info('FINAL LENGTH OF USER-BIO: %d', len(user_bio))
-    # f = open('user_bio.dat', 'w')
-    # f.write(user_bio.__str__())
-    # logging.info('User bios saved to file!')
+    f = open('user_bio.dat', 'w')
+    f.write(user_bio.__str__())
+    logging.info('User bios saved to file!')
